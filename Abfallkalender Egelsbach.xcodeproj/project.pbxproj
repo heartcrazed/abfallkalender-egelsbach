@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0FDFE11D4A6E6900142039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FDFE01D4A6E6900142039 /* main.m */; };
+		8D0FDFE41D4A6E6900142039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FDFE31D4A6E6900142039 /* AppDelegate.m */; };
+		8D0FDFE71D4A6E6900142039 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FDFE61D4A6E6900142039 /* FirstViewController.m */; };
+		8D0FDFEA1D4A6E6900142039 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FDFE91D4A6E6900142039 /* SecondViewController.m */; };
+		8D0FDFED1D4A6E6900142039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0FDFEB1D4A6E6900142039 /* Main.storyboard */; };
+		8D0FDFEF1D4A6E6900142039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0FDFEE1D4A6E6900142039 /* Assets.xcassets */; };
+		8D0FDFF21D4A6E6900142039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0FDFF01D4A6E6900142039 /* LaunchScreen.storyboard */; };
+		8D0FDFFD1D4A6E6900142039 /* Abfallkalender_EgelsbachTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FDFFC1D4A6E6900142039 /* Abfallkalender_EgelsbachTests.m */; };
+		8D0FE0081D4A6E6900142039 /* Abfallkalender_EgelsbachUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FE0071D4A6E6900142039 /* Abfallkalender_EgelsbachUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D0FDFF91D4A6E6900142039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0FDFD41D4A6E6800142039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D0FDFDB1D4A6E6900142039;
+			remoteInfo = "Abfallkalender Egelsbach";
+		};
+		8D0FE0041D4A6E6900142039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0FDFD41D4A6E6800142039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D0FDFDB1D4A6E6900142039;
+			remoteInfo = "Abfallkalender Egelsbach";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D0FDFDC1D4A6E6900142039 /* Abfallkalender Egelsbach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abfallkalender Egelsbach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0FDFE01D4A6E6900142039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D0FDFE21D4A6E6900142039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D0FDFE31D4A6E6900142039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D0FDFE51D4A6E6900142039 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8D0FDFE61D4A6E6900142039 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8D0FDFE81D4A6E6900142039 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8D0FDFE91D4A6E6900142039 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8D0FDFEC1D4A6E6900142039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D0FDFEE1D4A6E6900142039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D0FDFF11D4A6E6900142039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D0FDFF31D4A6E6900142039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0FDFF81D4A6E6900142039 /* Abfallkalender EgelsbachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abfallkalender EgelsbachTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0FDFFC1D4A6E6900142039 /* Abfallkalender_EgelsbachTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Abfallkalender_EgelsbachTests.m; sourceTree = "<group>"; };
+		8D0FDFFE1D4A6E6900142039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0FE0031D4A6E6900142039 /* Abfallkalender EgelsbachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abfallkalender EgelsbachUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0FE0071D4A6E6900142039 /* Abfallkalender_EgelsbachUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Abfallkalender_EgelsbachUITests.m; sourceTree = "<group>"; };
+		8D0FE0091D4A6E6900142039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0FDFD91D4A6E6900142039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0FDFF51D4A6E6900142039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0FE0001D4A6E6900142039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0FDFD31D4A6E6800142039 = {
+			isa = PBXGroup;
+			children = (
+				8D0FDFDE1D4A6E6900142039 /* Abfallkalender Egelsbach */,
+				8D0FDFFB1D4A6E6900142039 /* Abfallkalender EgelsbachTests */,
+				8D0FE0061D4A6E6900142039 /* Abfallkalender EgelsbachUITests */,
+				8D0FDFDD1D4A6E6900142039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D0FDFDD1D4A6E6900142039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0FDFDC1D4A6E6900142039 /* Abfallkalender Egelsbach.app */,
+				8D0FDFF81D4A6E6900142039 /* Abfallkalender EgelsbachTests.xctest */,
+				8D0FE0031D4A6E6900142039 /* Abfallkalender EgelsbachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D0FDFDE1D4A6E6900142039 /* Abfallkalender Egelsbach */ = {
+			isa = PBXGroup;
+			children = (
+				8D0FDFE21D4A6E6900142039 /* AppDelegate.h */,
+				8D0FDFE31D4A6E6900142039 /* AppDelegate.m */,
+				8D0FDFE51D4A6E6900142039 /* FirstViewController.h */,
+				8D0FDFE61D4A6E6900142039 /* FirstViewController.m */,
+				8D0FDFE81D4A6E6900142039 /* SecondViewController.h */,
+				8D0FDFE91D4A6E6900142039 /* SecondViewController.m */,
+				8D0FDFEB1D4A6E6900142039 /* Main.storyboard */,
+				8D0FDFEE1D4A6E6900142039 /* Assets.xcassets */,
+				8D0FDFF01D4A6E6900142039 /* LaunchScreen.storyboard */,
+				8D0FDFF31D4A6E6900142039 /* Info.plist */,
+				8D0FDFDF1D4A6E6900142039 /* Supporting Files */,
+			);
+			path = "Abfallkalender Egelsbach";
+			sourceTree = "<group>";
+		};
+		8D0FDFDF1D4A6E6900142039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D0FDFE01D4A6E6900142039 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D0FDFFB1D4A6E6900142039 /* Abfallkalender EgelsbachTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D0FDFFC1D4A6E6900142039 /* Abfallkalender_EgelsbachTests.m */,
+				8D0FDFFE1D4A6E6900142039 /* Info.plist */,
+			);
+			path = "Abfallkalender EgelsbachTests";
+			sourceTree = "<group>";
+		};
+		8D0FE0061D4A6E6900142039 /* Abfallkalender EgelsbachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D0FE0071D4A6E6900142039 /* Abfallkalender_EgelsbachUITests.m */,
+				8D0FE0091D4A6E6900142039 /* Info.plist */,
+			);
+			path = "Abfallkalender EgelsbachUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0FDFDB1D4A6E6900142039 /* Abfallkalender Egelsbach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0FE00C1D4A6E6900142039 /* Build configuration list for PBXNativeTarget "Abfallkalender Egelsbach" */;
+			buildPhases = (
+				8D0FDFD81D4A6E6900142039 /* Sources */,
+				8D0FDFD91D4A6E6900142039 /* Frameworks */,
+				8D0FDFDA1D4A6E6900142039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abfallkalender Egelsbach";
+			productName = "Abfallkalender Egelsbach";
+			productReference = 8D0FDFDC1D4A6E6900142039 /* Abfallkalender Egelsbach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D0FDFF71D4A6E6900142039 /* Abfallkalender EgelsbachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0FE00F1D4A6E6900142039 /* Build configuration list for PBXNativeTarget "Abfallkalender EgelsbachTests" */;
+			buildPhases = (
+				8D0FDFF41D4A6E6900142039 /* Sources */,
+				8D0FDFF51D4A6E6900142039 /* Frameworks */,
+				8D0FDFF61D4A6E6900142039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D0FDFFA1D4A6E6900142039 /* PBXTargetDependency */,
+			);
+			name = "Abfallkalender EgelsbachTests";
+			productName = "Abfallkalender EgelsbachTests";
+			productReference = 8D0FDFF81D4A6E6900142039 /* Abfallkalender EgelsbachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D0FE0021D4A6E6900142039 /* Abfallkalender EgelsbachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0FE0121D4A6E6900142039 /* Build configuration list for PBXNativeTarget "Abfallkalender EgelsbachUITests" */;
+			buildPhases = (
+				8D0FDFFF1D4A6E6900142039 /* Sources */,
+				8D0FE0001D4A6E6900142039 /* Frameworks */,
+				8D0FE0011D4A6E6900142039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D0FE0051D4A6E6900142039 /* PBXTargetDependency */,
+			);
+			name = "Abfallkalender EgelsbachUITests";
+			productName = "Abfallkalender EgelsbachUITests";
+			productReference = 8D0FE0031D4A6E6900142039 /* Abfallkalender EgelsbachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D0FDFD41D4A6E6800142039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Katharina Franz";
+				TargetAttributes = {
+					8D0FDFDB1D4A6E6900142039 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8D0FDFF71D4A6E6900142039 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8D0FDFDB1D4A6E6900142039;
+					};
+					8D0FE0021D4A6E6900142039 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8D0FDFDB1D4A6E6900142039;
+					};
+				};
+			};
+			buildConfigurationList = 8D0FDFD71D4A6E6800142039 /* Build configuration list for PBXProject "Abfallkalender Egelsbach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D0FDFD31D4A6E6800142039;
+			productRefGroup = 8D0FDFDD1D4A6E6900142039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0FDFDB1D4A6E6900142039 /* Abfallkalender Egelsbach */,
+				8D0FDFF71D4A6E6900142039 /* Abfallkalender EgelsbachTests */,
+				8D0FE0021D4A6E6900142039 /* Abfallkalender EgelsbachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0FDFDA1D4A6E6900142039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0FDFF21D4A6E6900142039 /* LaunchScreen.storyboard in Resources */,
+				8D0FDFEF1D4A6E6900142039 /* Assets.xcassets in Resources */,
+				8D0FDFED1D4A6E6900142039 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0FDFF61D4A6E6900142039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0FE0011D4A6E6900142039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0FDFD81D4A6E6900142039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0FDFEA1D4A6E6900142039 /* SecondViewController.m in Sources */,
+				8D0FDFE41D4A6E6900142039 /* AppDelegate.m in Sources */,
+				8D0FDFE71D4A6E6900142039 /* FirstViewController.m in Sources */,
+				8D0FDFE11D4A6E6900142039 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0FDFF41D4A6E6900142039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0FDFFD1D4A6E6900142039 /* Abfallkalender_EgelsbachTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0FDFFF1D4A6E6900142039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0FE0081D4A6E6900142039 /* Abfallkalender_EgelsbachUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D0FDFFA1D4A6E6900142039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D0FDFDB1D4A6E6900142039 /* Abfallkalender Egelsbach */;
+			targetProxy = 8D0FDFF91D4A6E6900142039 /* PBXContainerItemProxy */;
+		};
+		8D0FE0051D4A6E6900142039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D0FDFDB1D4A6E6900142039 /* Abfallkalender Egelsbach */;
+			targetProxy = 8D0FE0041D4A6E6900142039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D0FDFEB1D4A6E6900142039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0FDFEC1D4A6E6900142039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D0FDFF01D4A6E6900142039 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0FDFF11D4A6E6900142039 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D0FE00A1D4A6E6900142039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D0FE00B1D4A6E6900142039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0FE00D1D4A6E6900142039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Abfallkalender Egelsbach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "franz.katharina.Abfallkalender-Egelsbach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D0FE00E1D4A6E6900142039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Abfallkalender Egelsbach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "franz.katharina.Abfallkalender-Egelsbach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D0FE0101D4A6E6900142039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Abfallkalender EgelsbachTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "franz.katharina.Abfallkalender-EgelsbachTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abfallkalender Egelsbach.app/Abfallkalender Egelsbach";
+			};
+			name = Debug;
+		};
+		8D0FE0111D4A6E6900142039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Abfallkalender EgelsbachTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "franz.katharina.Abfallkalender-EgelsbachTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abfallkalender Egelsbach.app/Abfallkalender Egelsbach";
+			};
+			name = Release;
+		};
+		8D0FE0131D4A6E6900142039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Abfallkalender EgelsbachUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "franz.katharina.Abfallkalender-EgelsbachUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Abfallkalender Egelsbach";
+			};
+			name = Debug;
+		};
+		8D0FE0141D4A6E6900142039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Abfallkalender EgelsbachUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "franz.katharina.Abfallkalender-EgelsbachUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Abfallkalender Egelsbach";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D0FDFD71D4A6E6800142039 /* Build configuration list for PBXProject "Abfallkalender Egelsbach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0FE00A1D4A6E6900142039 /* Debug */,
+				8D0FE00B1D4A6E6900142039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0FE00C1D4A6E6900142039 /* Build configuration list for PBXNativeTarget "Abfallkalender Egelsbach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0FE00D1D4A6E6900142039 /* Debug */,
+				8D0FE00E1D4A6E6900142039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D0FE00F1D4A6E6900142039 /* Build configuration list for PBXNativeTarget "Abfallkalender EgelsbachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0FE0101D4A6E6900142039 /* Debug */,
+				8D0FE0111D4A6E6900142039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D0FE0121D4A6E6900142039 /* Build configuration list for PBXNativeTarget "Abfallkalender EgelsbachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0FE0131D4A6E6900142039 /* Debug */,
+				8D0FE0141D4A6E6900142039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D0FDFD41D4A6E6800142039 /* Project object */;
+}
